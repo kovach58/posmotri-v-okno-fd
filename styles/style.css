@@ -126,7 +126,8 @@ fieldset {
 }
 
 .search-form__pseudo-checkbox {
-  position: relative;
+  display: block;
+  align-self: center;
   width: 19px;
   height: 19px;
   margin-right: 5px;
@@ -134,12 +135,12 @@ fieldset {
   background-color: transparent;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   content: "";
-  position: absolute;
-  inset: 1px 1px;
-  width: 15px;
-  height: 15px;
+  display: block;
+  width: 17.5px;
+  height: 17.5px;
+  border: 1px solid #1b1919;
   background-color: #ffffff;
 }
 

@@ -16,7 +16,7 @@ html {
   margin: auto;
   padding: 133px 30px;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
@@ -41,21 +41,21 @@ fieldset {
   display: grid;
   grid-template-columns: 711px 399px;
   grid-template-rows: 1fr;
-  grid-template-areas: "result content__details" ;
+  grid-template-areas: "result content__details";
   align-items: end;
   column-gap: 30px;
   min-width: 1140px;
   height: 100%;
 }
 
-.result__video-container{
+.result__video-container {
   position: relative;
   width: 711px;
   height: 386px;
   margin-bottom: 16px;
 }
 
-.result__video{
+.result__video {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -70,7 +70,7 @@ fieldset {
   border: none;
 }
 
-.search-form__fieldset-title{
+.search-form__fieldset-title {
   margin-bottom: 5px;
   font-weight: 400;
   font-size: 18px;
@@ -95,18 +95,18 @@ fieldset {
 
 .search-form__textfield {
   min-width: 225px;
-  border-top: 1px  solid #FFFFFF;
-  border-right:0px solid #FFFFFF;
-  border-bottom:1px solid #FFFFFF;
-  border-left:0px solid #FFFFFF;
-  padding: 2.5px 0; 
+  border-top: 1px solid #ffffff;
+  border-right: 0px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  border-left: 0px solid #ffffff;
+  padding: 2.5px 0;
   color: inherit;
   font-family: inherit;
   font-weight: 400;
   font-size: inherit;
   line-height: 21.6px;
   background-color: transparent;
-  cursor: pointer; 
+  cursor: pointer;
   appearance: none;
 }
 
@@ -116,7 +116,7 @@ fieldset {
 }
 
 .search-form__label:has(:focus-visible) {
-  outline:1px solid #FFFFFF;
+  outline: 1px solid #ffffff;
   outline-offset: 1px;
 }
 
@@ -130,7 +130,7 @@ fieldset {
   width: 19px;
   height: 19px;
   margin-right: 5px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   background-color: transparent;
 }
 
@@ -140,7 +140,7 @@ fieldset {
   inset: 1px 1px;
   width: 15px;
   height: 15px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .search-form__checkbox + .search-form__pseudo-checkbox {
@@ -148,8 +148,8 @@ fieldset {
 }
 
 .button {
-  border: 1px  solid #FFFFFF;
-  color: #FFFFFF;
+  border: 1px solid #ffffff;
+  color: #ffffff;
   font-family: inherit;
   font-weight: 700;
   font-size: inherit;
@@ -178,7 +178,7 @@ fieldset {
 }
 
 .button:focus-visible {
-  outline:1px solid #FFFFFF;
+  outline: 1px solid #ffffff;
   outline-offset: 1px;
 }
 
@@ -199,10 +199,10 @@ fieldset {
 }
 
 .content__accent {
- color: #545050;
+  color: #545050;
 }
 
-.content__list-container  {
+.content__list-container {
   max-height: 298px;
   padding-top: 2px;
   overflow: auto;
@@ -218,7 +218,7 @@ fieldset {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
 .content__list {
@@ -237,11 +237,10 @@ ol {
   padding-right: 3px;
   padding-left: 3px;
 }
-/*пэдинг топ для того чтобы при ховере обводка верхняя
- не сркывалась- все равно не помогает */
+
 .content__card-link {
   display: block;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -282,7 +281,7 @@ ol {
 
 .content__card-link:hover {
   text-decoration: underline;
-  text-decoration-color:#FFFFFF;
+  text-decoration-color: #ffffff;
 }
 
 .content__card-link:focus {
@@ -290,7 +289,7 @@ ol {
 }
 
 .content__card-link:focus-visible {
-  outline:1px solid #FFFFFF;
+  outline: 1px solid #ffffff;
 }
 
 .content__card-link_current {
@@ -299,7 +298,6 @@ ol {
 
 .more-button {
   width: 100%;
-  margin-top: 26px;
+  margin-top: 30px;
   padding: 6px 142px;
 }
-
